@@ -1,0 +1,5 @@
+{"message":"No project detected for extracting metadata.","source":"MetadataCommand.ExtractMetadata","date_time":"2022-05-20T11:01:35.511801Z","message_severity":"warning","correlation_id":"81030BF5-9010-41E8-B0FA-C30691B6FEC2.1.1.3"}
+{"message":"No project detected for extracting metadata.","source":"MetadataCommand.ExtractMetadata","date_time":"2022-05-20T11:10:14.9752979Z","message_severity":"warning","correlation_id":"FD949D99-B4CB-461F-9A9E-6FF4EE55F8C8.1.1.3"}
+{"message":"No project detected for extracting metadata.","source":"MetadataCommand.ExtractMetadata","date_time":"2022-05-20T11:14:46.6895208Z","message_severity":"warning","correlation_id":"3A9593B9-0F20-4388-A16A-7FFBE798BCA2.1.1.3"}
+{"message":"No project detected for extracting metadata.","source":"MetadataCommand.ExtractMetadata","date_time":"2022-05-23T10:41:26.1664516Z","message_severity":"warning","correlation_id":"6C471E18-B488-4849-8CA4-A02D59E65486.1.1.3"}
+{"message":"No project detected for extracting metadata.","source":"MetadataCommand.ExtractMetadata","date_time":"2022-05-23T12:01:20.9268585Z","message_severity":"warning","correlation_id":"8EA02742-6383-42BB-8BD6-D3CEEA278C94.1.1.3"}

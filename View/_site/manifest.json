@@ -1,0 +1,342 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/user/source/repos/bsw/View",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/View.CatalogElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/View.CatalogElement.html",
+          "hash": "aduYsY4ukt+YJCDJ+AFvgeGWKM8iftJKR4OhbzgWJzs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/View.Controls.NumberInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/View.Controls.NumberInput.html",
+          "hash": "+77zBwjuf058tDE0YyDayPvBr+AJmxFPe1XwhYLp1SA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/View.Controls.NumberTextBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/View.Controls.NumberTextBox.html",
+          "hash": "Ptng2Kp1y3qRFjhKFPtZ0tU/3lNCWGuSpiyiJZlIg3U="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/View.Controls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/View.Controls.html",
+          "hash": "qMviO94hF8u+ZGASAGiRMvVPLZD1KrBsWBClLgImkzw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/View.GameWindow.InfoPanelContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/View.GameWindow.InfoPanelContainer.html",
+          "hash": "yodWlHEc0nDeTIrEnQACF2ugmwTYz673e4nWcSqFUrI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/View.GameWindow.InfoPanels.BuildingInfoPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/View.GameWindow.InfoPanels.BuildingInfoPanel.html",
+          "hash": "TKDbHKDKuLwFcdr1kLcXNIKEsIYPM1b7YSSSH8WMCtk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/View.GameWindow.InfoPanels.DefaultInfoPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/View.GameWindow.InfoPanels.DefaultInfoPanel.html",
+          "hash": "DrnCDtNo+sbrqdFbF/UO2pNGse1E+Vo44OJ3TSSDoCI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/View.GameWindow.InfoPanels.MaintenanceWorkerInfoPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/View.GameWindow.InfoPanels.MaintenanceWorkerInfoPanel.html",
+          "hash": "Begun51FqAFI/qNx4Zch2AruDyz+ePZCm33tFzKY3J4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/View.GameWindow.InfoPanels.VisitorInfoPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/View.GameWindow.InfoPanels.VisitorInfoPanel.html",
+          "hash": "acil1uPS224LPTnQ+gL6lUZZef0kwNtnvvSeoXK/a3o="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/View.GameWindow.InfoPanels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/View.GameWindow.InfoPanels.html",
+          "hash": "Mm4knC5y7SSALm3BHFwFRi9Ejf3o56lmbnSv+87fPEY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/View.GameWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/View.GameWindow.html",
+          "hash": "F/YhPitapFOJdSVy6KgY2Aqo3np/r5Iq9x1qqp9Beqo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/View.MainMenuWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/View.MainMenuWindow.html",
+          "hash": "tOnQmLsEAUgtBcVPE6wKzpuzHDQY+DFx3qJ8Ud3sz9g="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/View.MainWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/View.MainWindow.html",
+          "hash": "PNQ7wpuzNJZ2y1xuMniHs9L5eLGhnHd8/MgsGSyR9uo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/View.NewParkWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/View.NewParkWindow.html",
+          "hash": "cMSiazg8c3fwZCl+eX3Y/L+2izrLIftE+KWpUMLDFeM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/View.Util.ClickableGrid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/View.Util.ClickableGrid.html",
+          "hash": "91zF+DP+yL1upqsFt5SNsLIcH6m2UjfdVfeZoAEdUfc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/View.Util.FilePickers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/View.Util.FilePickers.html",
+          "hash": "eUH5WmCgQ59qLsf4x8DCXYNFJZCbyakw66iAWXMeE1E="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/View.Util.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/View.Util.html",
+          "hash": "6rTn70NxfU7H8nnkR2T8NmpwkZxm4qvDuMgDh+EPM3c="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/View.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/View.html",
+          "hash": "xHJAp3fyW81ntNKjb9BkYorZasM+cKGgZgnImc18Jxw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "S6HH25ziEUKWJk9c1SDkf4tv9pt+s1Em+CanR3D4XJQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "ys/Obyw+SxnKyD+MR0lJECDeKE8MvSzk5GQItL2xxfw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "aOy2sep6UZV26oOkupcIBXuDgHQsCVz7R3i+I6vFl6Y="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "J2Ucrckdx4dg4IZOx6kwfAACTTn8pqVwhGnYicz3XjE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "WSuRrYiGwKKMbtdG9z8W9fXmLoCyTnGg9AxbPKLXm2Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 18,
+          "skipped_file_count": 18
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

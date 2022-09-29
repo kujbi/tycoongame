@@ -1,0 +1,3 @@
+{"message":"No project detected for extracting metadata.","source":"MetadataCommand.ExtractMetadata","date_time":"2022-05-20T11:01:36.8208393Z","message_severity":"warning","correlation_id":"3E2C97BA-BD13-4F3B-9484-46F14249FFF1.1.1.3"}
+{"message":"No project detected for extracting metadata.","source":"MetadataCommand.ExtractMetadata","date_time":"2022-05-23T10:41:21.505988Z","message_severity":"warning","correlation_id":"51D6212A-D2BA-4FB1-9DC5-F5D13985B320.1.1.3"}
+{"message":"No project detected for extracting metadata.","source":"MetadataCommand.ExtractMetadata","date_time":"2022-05-23T12:01:16.9308584Z","message_severity":"warning","correlation_id":"13B99451-F96A-412D-BE3A-4BDBF25962B3.1.1.3"}

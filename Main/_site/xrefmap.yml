@@ -1,0 +1,41 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Main
+  name: Main
+  href: api/Main.html
+  commentId: N:Main
+  fullName: Main
+  nameWithType: Main
+- uid: Main.App
+  name: App
+  href: api/Main.App.html
+  commentId: T:Main.App
+  fullName: Main.App
+  nameWithType: App
+- uid: Main.App.#ctor
+  name: App()
+  href: api/Main.App.html#Main_App__ctor
+  commentId: M:Main.App.#ctor
+  fullName: Main.App.App()
+  nameWithType: App.App()
+- uid: Main.App.#ctor*
+  name: App
+  href: api/Main.App.html#Main_App__ctor_
+  commentId: Overload:Main.App.#ctor
+  isSpec: "True"
+  fullName: Main.App.App
+  nameWithType: App.App
+- uid: Main.App.Main
+  name: Main()
+  href: api/Main.App.html#Main_App_Main
+  commentId: M:Main.App.Main
+  fullName: Main.App.Main()
+  nameWithType: App.Main()
+- uid: Main.App.Main*
+  name: Main
+  href: api/Main.App.html#Main_App_Main_
+  commentId: Overload:Main.App.Main
+  isSpec: "True"
+  fullName: Main.App.Main
+  nameWithType: App.Main

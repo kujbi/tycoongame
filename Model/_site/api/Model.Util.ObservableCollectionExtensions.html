@@ -1,0 +1,561 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ObservableCollectionExtensions
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ObservableCollectionExtensions
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Model.Util.ObservableCollectionExtensions">
+  
+  
+  <h1 id="Model_Util_ObservableCollectionExtensions" data-uid="Model.Util.ObservableCollectionExtensions" class="text-break">Class ObservableCollectionExtensions
+  </h1>
+  <div class="markdown level0 summary"><p>Az ObservableCollection osztályhoz készült segédmetódusok.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ObservableCollectionExtensions</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Model.Util.html">Model.Util</a></h6>
+  <h6><strong>Assembly</strong>: Model.dll</h6>
+  <h5 id="Model_Util_ObservableCollectionExtensions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class ObservableCollectionExtensions</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Model_Util_ObservableCollectionExtensions_Aggregate_" data-uid="Model.Util.ObservableCollectionExtensions.Aggregate*"></a>
+  <h4 id="Model_Util_ObservableCollectionExtensions_Aggregate__2_System_Collections_ObjectModel_ObservableCollection_Model_Util_State___0_____1_System_Func___0___1___1__" data-uid="Model.Util.ObservableCollectionExtensions.Aggregate``2(System.Collections.ObjectModel.ObservableCollection{Model.Util.State{``0}},``1,System.Func{``0,``1,``1})">Aggregate&lt;T, T2&gt;(ObservableCollection&lt;State&lt;T&gt;&gt;, T2, Func&lt;T, T2, T2&gt;)</h4>
+  <div class="markdown level1 summary"><p>A LINQ-ban található Aggregate metódust valósítja meg, de ha oc értéke változik, akkor újra lefut a függvény</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static State&lt;T2&gt; Aggregate&lt;T, T2&gt;(this ObservableCollection&lt;State&lt;T&gt;&gt; oc, T2 def, Func&lt;T, T2, T2&gt; acc)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ObservableCollection</span>&lt;<a class="xref" href="Model.Util.State-1.html">State</a>&lt;T&gt;&gt;</td>
+        <td><span class="parametername">oc</span></td>
+        <td><p>az ObservableCollection példány</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">def</span></td>
+        <td><p>az aggregálás kezdőértéke</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T, T2, T2&gt;</td>
+        <td><span class="parametername">acc</span></td>
+        <td><p>az akkumuláló függvény</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Model.Util.State-1.html">State</a>&lt;T2&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>az ObservableCollection példányban található elemek</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>az új State értékének típusa</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_Util_ObservableCollectionExtensions_AsState_" data-uid="Model.Util.ObservableCollectionExtensions.AsState*"></a>
+  <h4 id="Model_Util_ObservableCollectionExtensions_AsState__2_System_Collections_ObjectModel_ObservableCollection___1__System_Func_System_Collections_ObjectModel_ObservableCollection___1____0__" data-uid="Model.Util.ObservableCollectionExtensions.AsState``2(System.Collections.ObjectModel.ObservableCollection{``1},System.Func{System.Collections.ObjectModel.ObservableCollection{``1},``0})">AsState&lt;T, T2&gt;(ObservableCollection&lt;T2&gt;, Func&lt;ObservableCollection&lt;T2&gt;, T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Egy ObservableCollection példányt State példánnyá alakít az adott transzformáció mentén.
+Ha az ObservableCollection példány értéke változik, akkor változik a State példány is.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static State&lt;T&gt; AsState&lt;T, T2&gt;(this ObservableCollection&lt;T2&gt; oc, Func&lt;ObservableCollection&lt;T2&gt;, T&gt; transform)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ObservableCollection</span>&lt;T2&gt;</td>
+        <td><span class="parametername">oc</span></td>
+        <td><p>az ObservableCollection példány</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Collections.ObjectModel.ObservableCollection</span>&lt;T2&gt;, T&gt;</td>
+        <td><span class="parametername">transform</span></td>
+        <td><p>a transzformáció</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Model.Util.State-1.html">State</a>&lt;T&gt;</td>
+        <td><p>A State példány</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>A State értékének típusa</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>Az ObservableCollection elemeinek típusa</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_Util_ObservableCollectionExtensions_Do_" data-uid="Model.Util.ObservableCollectionExtensions.Do*"></a>
+  <h4 id="Model_Util_ObservableCollectionExtensions_Do__1_System_Collections_ObjectModel_ObservableCollection___0__System_Action___0__" data-uid="Model.Util.ObservableCollectionExtensions.Do``1(System.Collections.ObjectModel.ObservableCollection{``0},System.Action{``0})">Do&lt;T&gt;(ObservableCollection&lt;T&gt;, Action&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Minden elemen egyszer lefutó mellékhatás hozzáadása oc-hez</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ObservableCollection&lt;T&gt; Do&lt;T&gt;(this ObservableCollection&lt;T&gt; oc, Action&lt;T&gt; action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ObservableCollection</span>&lt;T&gt;</td>
+        <td><span class="parametername">oc</span></td>
+        <td><p>egy ObservableCollection példány</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td><p>a kívánt mellékhatás</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ObservableCollection</span>&lt;T&gt;</td>
+        <td><p>oc</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>oc elemeinek típusa</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_Util_ObservableCollectionExtensions_Map_" data-uid="Model.Util.ObservableCollectionExtensions.Map*"></a>
+  <h4 id="Model_Util_ObservableCollectionExtensions_Map__2_System_Collections_ObjectModel_ObservableCollection___0__System_Func___0___1__" data-uid="Model.Util.ObservableCollectionExtensions.Map``2(System.Collections.ObjectModel.ObservableCollection{``0},System.Func{``0,``1})">Map&lt;T, T2&gt;(ObservableCollection&lt;T&gt;, Func&lt;T, T2&gt;)</h4>
+  <div class="markdown level1 summary"><p>A LINQ Select metódusának implementálása, de ha egy elemet hozzáadnak, vagy elvesznek az eredeti oc-ból,
+akkor az az új ObservableCollection példányban is megjelenik vagy eltűnik.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ObservableCollection&lt;T2&gt; Map&lt;T, T2&gt;(this ObservableCollection&lt;T&gt; oc, Func&lt;T, T2&gt; transform)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ObservableCollection</span>&lt;T&gt;</td>
+        <td><span class="parametername">oc</span></td>
+        <td><p>Az eredeti ObservableCollection példány</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T, T2&gt;</td>
+        <td><span class="parametername">transform</span></td>
+        <td><p>az elemek transzformációja</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ObservableCollection</span>&lt;T2&gt;</td>
+        <td><p>a létrejövő ObservableCollection típus</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>oc elemeinek típusa</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>a létrejövő ObservableCollection típusa</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_Util_ObservableCollectionExtensions_Merge_" data-uid="Model.Util.ObservableCollectionExtensions.Merge*"></a>
+  <h4 id="Model_Util_ObservableCollectionExtensions_Merge__1_System_Collections_ObjectModel_ObservableCollection___0__System_Collections_ObjectModel_ObservableCollection___0__" data-uid="Model.Util.ObservableCollectionExtensions.Merge``1(System.Collections.ObjectModel.ObservableCollection{``0},System.Collections.ObjectModel.ObservableCollection{``0})">Merge&lt;T&gt;(ObservableCollection&lt;T&gt;, ObservableCollection&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Összefűzi o1-et és o2-t egy ObservableCollection példányba. Ha hozzáadunk vagy elveszünk elemeket o1-ből vagy o2-ből,
+akkor az hozzáadódik/kitörlődik a létrejövő példányból is</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ObservableCollection&lt;T&gt; Merge&lt;T&gt;(this ObservableCollection&lt;T&gt; o1, ObservableCollection&lt;T&gt; o2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ObservableCollection</span>&lt;T&gt;</td>
+        <td><span class="parametername">o1</span></td>
+        <td><p>egy ObservableCollection példány</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ObservableCollection</span>&lt;T&gt;</td>
+        <td><span class="parametername">o2</span></td>
+        <td><p>egy másik ObservableCollection példány</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ObservableCollection</span>&lt;T&gt;</td>
+        <td><p>az új ObservableCollection példány</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>az elemek típusa</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_Util_ObservableCollectionExtensions_Subscribe_" data-uid="Model.Util.ObservableCollectionExtensions.Subscribe*"></a>
+  <h4 id="Model_Util_ObservableCollectionExtensions_Subscribe__1_System_Collections_ObjectModel_ObservableCollection___0__System_Collections_ObjectModel_ObservableCollection___0__" data-uid="Model.Util.ObservableCollectionExtensions.Subscribe``1(System.Collections.ObjectModel.ObservableCollection{``0},System.Collections.ObjectModel.ObservableCollection{``0})">Subscribe&lt;T&gt;(ObservableCollection&lt;T&gt;, ObservableCollection&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Feliratkoztatja c1 változásaira c2-t.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Subscribe&lt;T&gt;(this ObservableCollection&lt;T&gt; c1, ObservableCollection&lt;T&gt; c2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ObservableCollection</span>&lt;T&gt;</td>
+        <td><span class="parametername">c1</span></td>
+        <td><p>egy ObservableCollection példány</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ObservableCollection</span>&lt;T&gt;</td>
+        <td><span class="parametername">c2</span></td>
+        <td><p>egy másik ObservableCollection példány</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>az elemek típusa</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

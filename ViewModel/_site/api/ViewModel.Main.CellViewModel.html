@@ -1,0 +1,543 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CellViewModel
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CellViewModel
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ViewModel.Main.CellViewModel">
+  
+  
+  <h1 id="ViewModel_Main_CellViewModel" data-uid="ViewModel.Main.CellViewModel" class="text-break">Class CellViewModel
+  </h1>
+  <div class="markdown level0 summary"><p>Egy parkban lévő entitás nézetmodellje</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="ViewModel.ViewModelBase.html">ViewModelBase</a></div>
+    <div class="level2"><span class="xref">CellViewModel</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="ViewModel.ViewModelBase.html#ViewModel_ViewModelBase_PropertyChanged">ViewModelBase.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="ViewModel.ViewModelBase.html#ViewModel_ViewModelBase_OnPropertyChanged_System_String_">ViewModelBase.OnPropertyChanged(String)</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ViewModel.Main.html">ViewModel.Main</a></h6>
+  <h6><strong>Assembly</strong>: ViewModel.dll</h6>
+  <h5 id="ViewModel_Main_CellViewModel_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CellViewModel : ViewModelBase, INotifyPropertyChanged</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="ViewModel_Main_CellViewModel__ctor_" data-uid="ViewModel.Main.CellViewModel.#ctor*"></a>
+  <h4 id="ViewModel_Main_CellViewModel__ctor_Model_Entity_ViewModel_Main_MainViewModel_" data-uid="ViewModel.Main.CellViewModel.#ctor(Model.Entity,ViewModel.Main.MainViewModel)">CellViewModel(Entity, MainViewModel)</h4>
+  <div class="markdown level1 summary"><p>Inicializál egy új CellViewModel példányt</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CellViewModel(Entity entity, MainViewModel mainViewModel)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Model.Entity</span></td>
+        <td><span class="parametername">entity</span></td>
+        <td><p>az entitás</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ViewModel.Main.MainViewModel.html">MainViewModel</a></td>
+        <td><span class="parametername">mainViewModel</span></td>
+        <td><p>a mainViewModel, amiben ez a példány is van</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="ViewModel_Main_CellViewModel_ColSpan_" data-uid="ViewModel.Main.CellViewModel.ColSpan*"></a>
+  <h4 id="ViewModel_Main_CellViewModel_ColSpan" data-uid="ViewModel.Main.CellViewModel.ColSpan">ColSpan</h4>
+  <div class="markdown level1 summary"><p>Az oszlopösszevonás</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ColSpan { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ViewModel_Main_CellViewModel_ColState_" data-uid="ViewModel.Main.CellViewModel.ColState*"></a>
+  <h4 id="ViewModel_Main_CellViewModel_ColState" data-uid="ViewModel.Main.CellViewModel.ColState">ColState</h4>
+  <div class="markdown level1 summary"><p>Az oszlop állapota</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public State&lt;int&gt; ColState { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Model.Util.State</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ViewModel_Main_CellViewModel_DeleteCommand_" data-uid="ViewModel.Main.CellViewModel.DeleteCommand*"></a>
+  <h4 id="ViewModel_Main_CellViewModel_DeleteCommand" data-uid="ViewModel.Main.CellViewModel.DeleteCommand">DeleteCommand</h4>
+  <div class="markdown level1 summary"><p>A törlés parancs</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DelegateCommand DeleteCommand { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ViewModel.Util.DelegateCommand.html">DelegateCommand</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ViewModel_Main_CellViewModel_Entity_" data-uid="ViewModel.Main.CellViewModel.Entity*"></a>
+  <h4 id="ViewModel_Main_CellViewModel_Entity" data-uid="ViewModel.Main.CellViewModel.Entity">Entity</h4>
+  <div class="markdown level1 summary"><p>Az entitás</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Entity Entity { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Model.Entity</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ViewModel_Main_CellViewModel_ImagePath_" data-uid="ViewModel.Main.CellViewModel.ImagePath*"></a>
+  <h4 id="ViewModel_Main_CellViewModel_ImagePath" data-uid="ViewModel.Main.CellViewModel.ImagePath">ImagePath</h4>
+  <div class="markdown level1 summary"><p>Az entitás képének az elérési útja</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ImagePath { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ViewModel_Main_CellViewModel_IsCollided_" data-uid="ViewModel.Main.CellViewModel.IsCollided*"></a>
+  <h4 id="ViewModel_Main_CellViewModel_IsCollided" data-uid="ViewModel.Main.CellViewModel.IsCollided">IsCollided</h4>
+  <div class="markdown level1 summary"><p>Megadja, hogy ütközik-e másik CellViewModellel</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsCollided { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ViewModel_Main_CellViewModel_IsPreview_" data-uid="ViewModel.Main.CellViewModel.IsPreview*"></a>
+  <h4 id="ViewModel_Main_CellViewModel_IsPreview" data-uid="ViewModel.Main.CellViewModel.IsPreview">IsPreview</h4>
+  <div class="markdown level1 summary"><p>Megadja, hogy csak előnézetként van-e lent a CellViewModel</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsPreview { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ViewModel_Main_CellViewModel_IsSelected_" data-uid="ViewModel.Main.CellViewModel.IsSelected*"></a>
+  <h4 id="ViewModel_Main_CellViewModel_IsSelected" data-uid="ViewModel.Main.CellViewModel.IsSelected">IsSelected</h4>
+  <div class="markdown level1 summary"><p>Megadja, hogy ki van e választva a példány</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSelected { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ViewModel_Main_CellViewModel_RowSpan_" data-uid="ViewModel.Main.CellViewModel.RowSpan*"></a>
+  <h4 id="ViewModel_Main_CellViewModel_RowSpan" data-uid="ViewModel.Main.CellViewModel.RowSpan">RowSpan</h4>
+  <div class="markdown level1 summary"><p>A sorösszevonás</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int RowSpan { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ViewModel_Main_CellViewModel_RowState_" data-uid="ViewModel.Main.CellViewModel.RowState*"></a>
+  <h4 id="ViewModel_Main_CellViewModel_RowState" data-uid="ViewModel.Main.CellViewModel.RowState">RowState</h4>
+  <div class="markdown level1 summary"><p>A sor állapota</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public State&lt;int&gt; RowState { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Model.Util.State</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ViewModel_Main_CellViewModel_VisibilityState_" data-uid="ViewModel.Main.CellViewModel.VisibilityState*"></a>
+  <h4 id="ViewModel_Main_CellViewModel_VisibilityState" data-uid="ViewModel.Main.CellViewModel.VisibilityState">VisibilityState</h4>
+  <div class="markdown level1 summary"><p>A láthatóság állapota</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public State&lt;Visibility&gt; VisibilityState { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Model.Util.State</span>&lt;<span class="xref">System.Windows.Visibility</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ViewModel_Main_CellViewModel_ZIndexState_" data-uid="ViewModel.Main.CellViewModel.ZIndexState*"></a>
+  <h4 id="ViewModel_Main_CellViewModel_ZIndexState" data-uid="ViewModel.Main.CellViewModel.ZIndexState">ZIndexState</h4>
+  <div class="markdown level1 summary"><p>A ZIndex állapota</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public State&lt;int&gt; ZIndexState { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Model.Util.State</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="ViewModel_Main_CellViewModel_DeleteExecuted" data-uid="ViewModel.Main.CellViewModel.DeleteExecuted">DeleteExecuted</h4>
+  <div class="markdown level1 summary"><p>Akkor hívódik meg, ki akarjuk törölni az elemet</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;CellViewModel&gt; DeleteExecuted</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="ViewModel.Main.CellViewModel.html">CellViewModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

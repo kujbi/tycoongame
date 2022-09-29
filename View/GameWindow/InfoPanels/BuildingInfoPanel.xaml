@@ -1,0 +1,82 @@
+﻿<UserControl x:Class="View.GameWindow.InfoPanels.BuildingInfoPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:View.GameWindow.InfoPanels"
+             xmlns:infoPanelViewModels="clr-namespace:ViewModel.Main.InfoPanelViewModels;assembly=ViewModel"
+             xmlns:controls="clr-namespace:View.Controls"
+             mc:Ignorable="d"
+             d:DesignHeight="300" d:DesignWidth="500"
+             d:DataContext="{d:DesignInstance infoPanelViewModels:BuildingInfoPanelViewModel}">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../../Styles/Styles.xaml" />
+                <ResourceDictionary Source="../../Util/DataTemplates.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="3*"/>
+        </Grid.RowDefinitions>
+        
+        <Image Grid.Row="0" Source="{Binding ImagePath}"
+               HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,7" />
+        
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            
+
+            <TextBlock Visibility="{Binding EditControlsVisibilityState.Value}" Style="{StaticResource InfoPanelTextBlockProperty}" Grid.Row="1" Grid.Column="0" Text="Kihasználtság:"/>
+            <ProgressBar Visibility="{Binding EditControlsVisibilityState.Value}" Grid.Row="1" Grid.Column="1"  Value="{Binding UtilizationProgressBarState.Value}" />
+            <TextBlock Style="{StaticResource InfoPanelTextBlockValue}" Visibility="{Binding EditControlsVisibilityState.Value}" Grid.Row="2" Grid.Column="1"
+                   Text="{Binding UtilizationNumberState.Value}" />
+
+            <TextBlock Style="{StaticResource InfoPanelTextBlockProperty}" Visibility="{Binding EditControlsVisibilityState.Value}" Grid.Row="3" Grid.Column="0" Text="Életerő:"/>
+            <ProgressBar Grid.Row="3" Grid.Column="1" Visibility="{Binding EditControlsVisibilityState.Value}" Value="{Binding HealthProgressBarState.Value}" />
+            <TextBlock Style="{StaticResource InfoPanelTextBlockValue}" Visibility="{Binding EditControlsVisibilityState.Value}" Grid.Row="4" Grid.Column="1"
+                   Text="{Binding HealthNumberState.Value}"/>
+
+            <TextBlock Style="{StaticResource InfoPanelTextBlockProperty}" Grid.Row="5" Grid.Column="0" Text="Státusz:"/>
+            <TextBlock x:Name="Label" Style="{StaticResource InfoPanelTextBlockValue}" Grid.Row="5" Grid.Column="1"
+                   Text="{Binding StatusLabelState.Value}" />
+            <ProgressBar Grid.Row="6" Grid.Column="1" Value="{Binding BuildAndRepairTimeProgressBarState.Value}"
+                         Height="{Binding ActualHeight, ElementName=Label}"
+                         Visibility="{Binding BuildAndRepairProgressBarVisibility.Value}" />
+
+            <TextBlock Style="{StaticResource InfoPanelTextBlockProperty}" Grid.Row="7" Grid.Column="0" Text="Sor hossza:"
+                       Visibility="{Binding EditControlsVisibilityState.Value}"/>
+            <TextBlock Style="{StaticResource InfoPanelTextBlockValue}" Visibility="{Binding EditControlsVisibilityState.Value}" Grid.Row="7" Grid.Column="1"
+                   Text="{Binding QueueLengthState.Value}" />
+
+            <TextBlock Grid.Row="8" Grid.Column="0" Style="{StaticResource InfoPanelTextBlockProperty}">Jegyár:</TextBlock>
+            <ContentControl Grid.Row="8" Grid.Column="1" Content="{Binding TicketPrice}" />
+
+
+            <TextBlock Grid.Row="9" Grid.Column="0" Style="{StaticResource InfoPanelTextBlockProperty}" Visibility="{Binding EditControlsVisibilityState.Value}">Minimális kihasználtság:</TextBlock>
+            <Slider Grid.Row="9" Grid.Column="1" Orientation="Horizontal" Visibility="{Binding EditControlsVisibilityState.Value}" VerticalAlignment="Center" Minimum="0" Maximum="100" SmallChange="1" LargeChange="5" Value="{Binding MinUtilizationPercentState.Value}"/>
+            <TextBlock Grid.Row="10" Grid.Column="1" Style="{StaticResource InfoPanelTextBlockValue}" Visibility="{Binding EditControlsVisibilityState.Value}" Text="{Binding MinUtilizationLabelState.Value}"/>
+            
+        </Grid>
+    </Grid>
+</UserControl>

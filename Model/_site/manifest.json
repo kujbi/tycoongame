@@ -1,0 +1,666 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/user/source/repos/bsw/Model",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.AimShooting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.AimShooting.html",
+          "hash": "YxsxPUnRvtCo6r5msRxGWUgRhJQcz3FjEVy6QSLwa5w="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.Building.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.Building.html",
+          "hash": "xe8CSLYTzvFBXns4XnJ2FLdMNADH2uQvlL80VAW+bMY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.Bush.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.Bush.html",
+          "hash": "4tBZqjinxHNmtC2JOTKioXnuOdpMu2zt8s3MzZZbJ4k="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.Direction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.Direction.html",
+          "hash": "z6MX/cNoL8UU1T6pNVet4ViZkQavqfe3WEObklBhjfU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.Dodgem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.Dodgem.html",
+          "hash": "tRDM8MpIMZOHm/KmzQcpiA0QRnbZbWK+BpcIxdYBeD8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.Entity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.Entity.html",
+          "hash": "BDfrhPKQKvyb0+P5TnUoT+0gGiKogpwwhNrWQVbWXKU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.EventArguments.MoveEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.EventArguments.MoveEventArgs.html",
+          "hash": "bVNaHIXY2DQmlDwmu+7QcAeA4s4pAgMme41tvZB3OI0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.EventArguments.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.EventArguments.html",
+          "hash": "BipEgevW3014IShlXtoFUPGr2gGu8WGQOVmkml9vgF0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.Facility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.Facility.html",
+          "hash": "wqk1KjTtKd85lERF4X/++XoeCcmulH9E36cQ1SqNO8o="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.FacilityStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.FacilityStatus.html",
+          "hash": "5bcACw9SW5K4XmiaAuBN3W5FLrCWjZvB7UyTEMqJC3M="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.FerrisWheel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.FerrisWheel.html",
+          "hash": "26zkygpZ5cfUmgYvoB51vS1C90JnCdg1GTYpOvP74Ac="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.FoodBuilding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.FoodBuilding.html",
+          "hash": "s/aaE5SBhq9FJ2BYuLgNPljHEQv6dRNFhxQL1JscAK4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.Game.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.Game.html",
+          "hash": "a0iK3j81AGBL+f7xssnuQXZNOCbKsm8U3JlKj/hLOIQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.GameModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.GameModel.html",
+          "hash": "3HOTob3a/J201/ikJqg79n28CILHrK37wH3M3FPPQ/Q="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.Gate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.Gate.html",
+          "hash": "IPfa91iDl1CoVxZKUHYFyg0Vsh2wp+J7EZu11fmCkCE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.GiantSwing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.GiantSwing.html",
+          "hash": "zX7q7UIyj82grHbbRMLO5wAPItebevnG56XJikDnjlg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.GridPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.GridPoint.html",
+          "hash": "aLwjR10oytbmsEWFBgGomOqGgfPyweSIxXSIGiYOWn0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.HuntedHouse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.HuntedHouse.html",
+          "hash": "MvealUO3IVqCYlbjA7SqgAevsnQIjUyAFusgNP8WH+c="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.IPersistence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.IPersistence.html",
+          "hash": "51jM9QNkj5hlhsXKvwIrJgiZBBDry9hnaLLQXFvW8tI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.IceCreamStand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.IceCreamStand.html",
+          "hash": "Rbker4S7GEljxqQdRrXH7mFcaf7ps8RCUvGjcZLc5Ro="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.MaintenanceWorker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.MaintenanceWorker.html",
+          "hash": "rQGXL1LF+EBVMXx4jPtddA0uX4a4TldQ1rjIceV/Y/c="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.Map.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.Map.html",
+          "hash": "cxjx+nx/MDM/4l1I2Ragwb0KcOmGy3e5NlgCJ2A9tw8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.MiniTrain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.MiniTrain.html",
+          "hash": "Dmpv1eXJls2DjoRSiHkbaTbJheNuvk19HTElHREjKR8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.Park.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.Park.html",
+          "hash": "wdbe3dSV3Ezan5oBmi7QhTtkhYvL4gz/SO0+cZE3kIc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.ParkStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.ParkStatus.html",
+          "hash": "cbQYc0hHe25go7DJVC9+FztgUDSObJV0dHwluwYBQs4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.PlacementResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.PlacementResult.html",
+          "hash": "KAsZ7EOBbUkjVmWbCJ72ucOv4ZOMv1zmVt+qc6BPlOc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.PlacingException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.PlacingException.html",
+          "hash": "OU//+UNhc40vvaVsB37r3aqFV/H2vRXrrlJMUnU5vzw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.Plant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.Plant.html",
+          "hash": "5ZzaItK1k4Z5DvtJ9BrGz/1LQOeEHwfPJWLDtHnIJDo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.PopCornStand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.PopCornStand.html",
+          "hash": "iy0wt1F6PE9bamqw2stL/dd/zSq8RErjXjdl9IRXKK0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.Purchasable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.Purchasable.html",
+          "hash": "i2dV8En5wjw3bNG8LwZPyhC7CVW8CoMYBd6JoFuVlEQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.Restaurant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.Restaurant.html",
+          "hash": "LgScTRLteLBGa8QurF1tEziaqWvAl8CSX2uJILZcbtc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.Road.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.Road.html",
+          "hash": "74JgHp4DOZjN9BHSfMZVMB8659RwC+mt9mG5uDUGjwU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.RollerCoaster.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.RollerCoaster.html",
+          "hash": "7UOUs6hzGXdnlu+p5fX9Wi5PVYRz6O36tmmTYmDBiDs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.TimeMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.TimeMode.html",
+          "hash": "tZE+ysBLaQB+XeAMQX8RRxrOCMvwbQ2MYyi5+guMhG0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.Tree.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.Tree.html",
+          "hash": "hC7cr+7GMqvJJlRNbdaZrURW6UgiIosGXwSghow1Js4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.Util.FacilityStatusExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.Util.FacilityStatusExtensions.html",
+          "hash": "AUhYPl4uOpFT8l8Es9Ar2JkBOxN5J7S5yHqYRfjv0wQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.Util.IntervalDatas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.Util.IntervalDatas.html",
+          "hash": "7hmvbu398fb6rJnyyVFO0TMLzbn+JBmAT69lu+5o20I="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.Util.ObservableCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.Util.ObservableCollectionExtensions.html",
+          "hash": "DqMIOi8n34qREUYbhYXNRc6/IS0Ol+9Axb/rbOwwwRY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.Util.PointExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.Util.PointExtensions.html",
+          "hash": "HbE/cREI9bVRngmxaJFvpvKpdo4euKcexDsfC9yiUJI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.Util.State-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.Util.State-1.html",
+          "hash": "vsRcXSE7zkl/cBTr2yA53bBPeTlo2yoCw93J2pxNjtI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.Util.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.Util.html",
+          "hash": "NyvOZ4SEAZzjqc2JpayjSds/BYqXrBDbdnprPaqDaKk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.Visitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.Visitor.html",
+          "hash": "2SEh/dVnI0yX7rW2+Ilfd5b8GWDl2HzqeGZAPXlK0a0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.VisitorStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.VisitorStatus.html",
+          "hash": "AcRltP3zb12l3tt61s34Bow+5RCsO1odfyOWnG4IRK4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.WorkerStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.WorkerStatus.html",
+          "hash": "IhA+Fr32y9Z/fJAuAP6qzpNZEibyMU9Lt6knS7Bwugg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.html",
+          "hash": "4lPsq/aMhBKRfY51HdOOvwDcGlBhIeCARvdmXYpHz0s="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "S6HH25ziEUKWJk9c1SDkf4tv9pt+s1Em+CanR3D4XJQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "SRV9E/n/1rHTaMLJKl84YRwpG3CyVytU01jMtLJojEI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "aOy2sep6UZV26oOkupcIBXuDgHQsCVz7R3i+I6vFl6Y="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "J2Ucrckdx4dg4IZOx6kwfAACTTn8pqVwhGnYicz3XjE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "WSuRrYiGwKKMbtdG9z8W9fXmLoCyTnGg9AxbPKLXm2Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 45,
+          "skipped_file_count": 45
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

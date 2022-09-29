@@ -1,0 +1,77 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Images\aimshooting.png" />
+    <None Remove="Resources\Images\dirtbackground.png" />
+    <None Remove="Resources\Images\dirt_background_finalxx.png" />
+    <None Remove="Resources\Images\dodgem.png" />
+    <None Remove="Resources\Images\dummy.png" />
+    <None Remove="Resources\Images\dummy1000_500.png" />
+    <None Remove="Resources\Images\dummy500_1000.png" />
+    <None Remove="Resources\Images\dummy500_500.png" />
+    <None Remove="Resources\Images\ferriswheel.png" />
+    <None Remove="Resources\Images\gate.png" />
+    <None Remove="Resources\Images\huntedhouse.png" />
+    <None Remove="Resources\Images\icecreamstand.png" />
+    <None Remove="Resources\Images\minitrain.png" />
+    <None Remove="Resources\Images\plant.png" />
+    <None Remove="Resources\Images\popcornstand.png" />
+    <None Remove="Resources\Images\res.png" />
+    <None Remove="Resources\Images\rollercoaster.png" />
+    <None Remove="Resources\Images\stone.png" />
+    <None Remove="Resources\Images\tree.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ViewModel\ViewModel.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\Fonts\" />
+    <Folder Include="Styles\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Images\aimshooting.png" />
+    <Resource Include="Resources\Images\dirtbackground.png" />
+    <Resource Include="Resources\Images\dirt_background_finalxx.png" />
+    <Resource Include="Resources\Images\dodgem.png" />
+    <Resource Include="Resources\Images\dummy1000_500.png" />
+    <Resource Include="Resources\Images\dummy500_1000.png" />
+    <Resource Include="Resources\Images\dummy500_500.png" />
+    <Resource Include="Resources\Images\ferriswheel.png" />
+    <Resource Include="Resources\Images\gate.png" />
+    <Resource Include="Resources\Images\huntedhouse.png" />
+    <Resource Include="Resources\Images\icecreamstand.png" />
+    <Resource Include="Resources\Images\minitrain.png" />
+    <Resource Include="Resources\Images\plant.png" />
+    <Resource Include="Resources\Images\popcornstand.png" />
+    <Resource Include="Resources\Images\res.png" />
+    <Resource Include="Resources\Images\rollercoaster.png" />
+    <Resource Include="Resources\Images\stone.png" />
+    <None Remove="Resources\Fonts\VT323-Regular.ttf" />
+    <Resource Include="Resources\Fonts\VT323-Regular.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <None Remove="Resources\Images\dummy1500_500.png" />
+    <Resource Include="Resources\Images\dummy1500_500.png" />
+    <None Remove="Resources\Images\dummy-person.png" />
+    <Resource Include="Resources\Images\dummy-person.png" />
+    <None Remove="Resources\Images\dummy_maintenanceWorker.png" />
+    <Resource Include="Resources\Images\dummy_maintenanceWorker.png" />
+    <None Remove="Resources\Images\aimshooting.png" />
+    <PackageReference Include="docfx.console" Version="2.59.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <Resource Include="Resources\Images\tree.png" />
+  </ItemGroup>
+
+</Project>

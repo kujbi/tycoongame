@@ -1,0 +1,50 @@
+﻿<UserControl x:Class="View.GameWindow.InfoPanelContainer"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:View.GameWindow"
+             xmlns:infoPanels="clr-namespace:View.GameWindow.InfoPanels"
+             xmlns:infoPanelViewModels="clr-namespace:ViewModel.Main.InfoPanelViewModels;assembly=ViewModel"
+             xmlns:viewModel="clr-namespace:ViewModel;assembly=ViewModel"
+             xmlns:main="clr-namespace:ViewModel.Main;assembly=ViewModel"
+             mc:Ignorable="d"
+             d:DesignHeight="150" d:DesignWidth="300" d:DataContext="{d:DesignInstance main:MainViewModel }"
+             Style="{DynamicResource InfoPanelStyle}">
+    
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <DataTemplate DataType="{x:Type infoPanelViewModels:DefaultInfoPanelViewModel}">
+                <infoPanels:DefaultInfoPanel/>
+            </DataTemplate>
+        
+            <DataTemplate DataType="{x:Type infoPanelViewModels:BuildingInfoPanelViewModel}">
+                <infoPanels:BuildingInfoPanel/>
+            </DataTemplate>
+            
+            <DataTemplate DataType="{x:Type infoPanelViewModels:VisitorInfoPanelViewModel}">
+                <infoPanels:VisitorInfoPanel/>
+            </DataTemplate>
+            
+            <DataTemplate DataType="{x:Type infoPanelViewModels:MaintenanceWorkerInfoPanel}">
+                <infoPanels:MaintenanceWorkerInfoPanel/>
+            </DataTemplate>
+            
+            <Style x:Key="BorderStyle" TargetType="Border">
+                <Setter Property="Background">
+                    <Setter.Value>
+                        <SolidColorBrush Color="White" Opacity="0.6"/>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../Styles/Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    
+    <Border Style="{StaticResource BorderStyle}">
+        <ContentControl Content="{Binding InfoPanelViewModelState.Value}" Margin="10"/>
+    </Border>
+    
+</UserControl>

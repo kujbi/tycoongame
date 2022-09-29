@@ -1,0 +1,858 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Map
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Map
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Model.Map">
+  
+  
+  <h1 id="Model_Map" data-uid="Model.Map" class="text-break">Class Map
+  </h1>
+  <div class="markdown level0 summary"><p>SINGLETON
+Térkép osztály a parkhoz</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Map</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Model.html">Model</a></h6>
+  <h6><strong>Assembly</strong>: Model.dll</h6>
+  <h5 id="Model_Map_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Map</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Model_Map_Distance_" data-uid="Model.Map.Distance*"></a>
+  <h4 id="Model_Map_Distance" data-uid="Model.Map.Distance">Distance</h4>
+  <div class="markdown level1 summary"><p>Távolság gyűjtemény.
+Megmondja melyik épülettől egy másik épület milyen messze van.
+Főátlóiban csupa 0 van.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;Facility, Dictionary&lt;Facility, long&gt;&gt; Distance { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<a class="xref" href="Model.Facility.html">Facility</a>, <span class="xref">System.Collections.Generic.Dictionary</span>&lt;<a class="xref" href="Model.Facility.html">Facility</a>, <span class="xref">System.Int64</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_Map_Facilities_" data-uid="Model.Map.Facilities*"></a>
+  <h4 id="Model_Map_Facilities" data-uid="Model.Map.Facilities">Facilities</h4>
+  <div class="markdown level1 summary"><p>Az összes épület</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;Facility&gt; Facilities { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ObservableCollection</span>&lt;<a class="xref" href="Model.Facility.html">Facility</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_Map_Instance_" data-uid="Model.Map.Instance*"></a>
+  <h4 id="Model_Map_Instance" data-uid="Model.Map.Instance">Instance</h4>
+  <div class="markdown level1 summary"><p>Map példány</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Map Instance { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Model.Map.html">Map</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_Map_Pi_" data-uid="Model.Map.Pi*"></a>
+  <h4 id="Model_Map_Pi" data-uid="Model.Map.Pi">Pi</h4>
+  <div class="markdown level1 summary"><p>Szülő gyűjtemény.
+Megmondja, hogy két épólet között milyen másik épületeken kell keresztül menni.
+Rekurzívan vag iteratívan előállítható belőle az útvonal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;Facility, Dictionary&lt;Facility, Facility&gt;&gt; Pi { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<a class="xref" href="Model.Facility.html">Facility</a>, <span class="xref">System.Collections.Generic.Dictionary</span>&lt;<a class="xref" href="Model.Facility.html">Facility</a>, <a class="xref" href="Model.Facility.html">Facility</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Model_Map_ChooseBuilding_" data-uid="Model.Map.ChooseBuilding*"></a>
+  <h4 id="Model_Map_ChooseBuilding_System_Collections_ObjectModel_ObservableCollection_Model_Building__" data-uid="Model.Map.ChooseBuilding(System.Collections.ObjectModel.ObservableCollection{Model.Building})">ChooseBuilding(ObservableCollection&lt;Building&gt;)</h4>
+  <div class="markdown level1 summary"><p>A megadott épületek közül kiválaszt egyet (félig véletlenszerűen).
+Az olcsóbb épületeket nagyobb hajlandósággal választja mint a drágábbakat.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Building ChooseBuilding(ObservableCollection&lt;Building&gt; buildings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ObservableCollection</span>&lt;<a class="xref" href="Model.Building.html">Building</a>&gt;</td>
+        <td><span class="parametername">buildings</span></td>
+        <td><p>Az adott épületek</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Model.Building.html">Building</a></td>
+        <td><p>A kiválasztott épület</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_Map_FloydWarshall_" data-uid="Model.Map.FloydWarshall*"></a>
+  <h4 id="Model_Map_FloydWarshall_System_Collections_ObjectModel_ObservableCollection_Model_Facility__" data-uid="Model.Map.FloydWarshall(System.Collections.ObjectModel.ObservableCollection{Model.Facility})">FloydWarshall(ObservableCollection&lt;Facility&gt;)</h4>
+  <div class="markdown level1 summary"><p>Floyd-Warhsall algoritmus</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FloydWarshall(ObservableCollection&lt;Facility&gt; facilities)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ObservableCollection</span>&lt;<a class="xref" href="Model.Facility.html">Facility</a>&gt;</td>
+        <td><span class="parametername">facilities</span></td>
+        <td><p>A gréf csúcspontjai</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_Map_Flush_" data-uid="Model.Map.Flush*"></a>
+  <h4 id="Model_Map_Flush" data-uid="Model.Map.Flush">Flush()</h4>
+  <div class="markdown level1 summary"><p>Adatok törlése</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Flush()</code></pre>
+  </div>
+  
+  
+  <a id="Model_Map_GetBuildingsWithRoadToThis_" data-uid="Model.Map.GetBuildingsWithRoadToThis*"></a>
+  <h4 id="Model_Map_GetBuildingsWithRoadToThis_Model_Facility_" data-uid="Model.Map.GetBuildingsWithRoadToThis(Model.Facility)">GetBuildingsWithRoadToThis(Facility)</h4>
+  <div class="markdown level1 summary"><p>Megadja azokat az épületeket amikhez a megadott épületből vezet út.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Facility&gt; GetBuildingsWithRoadToThis(Facility facility)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Model.Facility.html">Facility</a></td>
+        <td><span class="parametername">facility</span></td>
+        <td><p>Kérdezett épület</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Model.Facility.html">Facility</a>&gt;</td>
+        <td><p>Úttal rendelkező épületek listája</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_Map_GetCheapestDestination_" data-uid="Model.Map.GetCheapestDestination*"></a>
+  <h4 id="Model_Map_GetCheapestDestination_System_Collections_ObjectModel_ObservableCollection_Model_Building__" data-uid="Model.Map.GetCheapestDestination(System.Collections.ObjectModel.ObservableCollection{Model.Building})">GetCheapestDestination(ObservableCollection&lt;Building&gt;)</h4>
+  <div class="markdown level1 summary"><p>Visszaadja a listából a legolcsóbb épületet a belépője alapján.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Building GetCheapestDestination(ObservableCollection&lt;Building&gt; buildings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ObservableCollection</span>&lt;<a class="xref" href="Model.Building.html">Building</a>&gt;</td>
+        <td><span class="parametername">buildings</span></td>
+        <td><p>Épületek listája</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Model.Building.html">Building</a></td>
+        <td><p>Legolcsóbb épület</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_Map_GetClosestBuilding_" data-uid="Model.Map.GetClosestBuilding*"></a>
+  <h4 id="Model_Map_GetClosestBuilding_Model_Building_" data-uid="Model.Map.GetClosestBuilding(Model.Building)">GetClosestBuilding(Building)</h4>
+  <div class="markdown level1 summary"><p>Visszaadja a játékoshoz legközelebbi épületet.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Building GetClosestBuilding(Building from)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Model.Building.html">Building</a></td>
+        <td><span class="parametername">from</span></td>
+        <td><p>Játékos aktuális épülete</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Model.Building.html">Building</a></td>
+        <td><p>A legközelebbi épület</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_Map_GetClosestMaintenanceWorker_" data-uid="Model.Map.GetClosestMaintenanceWorker*"></a>
+  <h4 id="Model_Map_GetClosestMaintenanceWorker_Model_Building_System_Collections_Generic_List_Model_MaintenanceWorker__" data-uid="Model.Map.GetClosestMaintenanceWorker(Model.Building,System.Collections.Generic.List{Model.MaintenanceWorker})">GetClosestMaintenanceWorker(Building, List&lt;MaintenanceWorker&gt;)</h4>
+  <div class="markdown level1 summary"><p>Megpróbálja visszaadni az épülethez legközelebb lévő szabad karbantartót, ha nincs akkor null-al tér vissza ezzel várakoztatva az épületet.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MaintenanceWorker GetClosestMaintenanceWorker(Building building, List&lt;MaintenanceWorker&gt; maintenanceWorkers)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Model.Building.html">Building</a></td>
+        <td><span class="parametername">building</span></td>
+        <td><p>Javításra szoruló épület</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Model.MaintenanceWorker.html">MaintenanceWorker</a>&gt;</td>
+        <td><span class="parametername">maintenanceWorkers</span></td>
+        <td><p>Karbantartók listája</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Model.MaintenanceWorker.html">MaintenanceWorker</a></td>
+        <td><p>A legközelebbi szabad karbantartó (ha van)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_Map_GetFacility_" data-uid="Model.Map.GetFacility*"></a>
+  <h4 id="Model_Map_GetFacility_Model_GridPoint_" data-uid="Model.Map.GetFacility(Model.GridPoint)">GetFacility(GridPoint)</h4>
+  <div class="markdown level1 summary"><p>Megadja az adott koordinátán lévő épületet</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Facility GetFacility(GridPoint location)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Model.GridPoint.html">GridPoint</a></td>
+        <td><span class="parametername">location</span></td>
+        <td><p>Koordináta</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Model.Facility.html">Facility</a></td>
+        <td><p>Az adott koodinátán lévő épület</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_Map_GetFoodBuildings_" data-uid="Model.Map.GetFoodBuildings*"></a>
+  <h4 id="Model_Map_GetFoodBuildings_Model_Building_" data-uid="Model.Map.GetFoodBuildings(Model.Building)">GetFoodBuildings(Building)</h4>
+  <div class="markdown level1 summary"><p>Paraméterül kapott épületen kívűl visszaadja az összes éttermet.
+Hogy mégegyszer ne választhassuk ugyanazt az épületet.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;Building&gt; GetFoodBuildings(Building exceptBuilding)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Model.Building.html">Building</a></td>
+        <td><span class="parametername">exceptBuilding</span></td>
+        <td><p>A játékos aktuális épülete</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ObservableCollection</span>&lt;<a class="xref" href="Model.Building.html">Building</a>&gt;</td>
+        <td><p>Éttermek gyűjteménye</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_Map_GetGames_" data-uid="Model.Map.GetGames*"></a>
+  <h4 id="Model_Map_GetGames_Model_Building_" data-uid="Model.Map.GetGames(Model.Building)">GetGames(Building)</h4>
+  <div class="markdown level1 summary"><p>Paraméterül kapott épületen kívűl visszaadja az összes játékot.
+Hogy mégegyszer ne választhassuk ugyanazt az épületet.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;Building&gt; GetGames(Building exceptBuilding)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Model.Building.html">Building</a></td>
+        <td><span class="parametername">exceptBuilding</span></td>
+        <td><p>A játékos aktuális épülete</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ObservableCollection</span>&lt;<a class="xref" href="Model.Building.html">Building</a>&gt;</td>
+        <td><p>Játékok gyűjteménye</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_Map_GetHappiness_" data-uid="Model.Map.GetHappiness*"></a>
+  <h4 id="Model_Map_GetHappiness_Model_Facility_" data-uid="Model.Map.GetHappiness(Model.Facility)">GetHappiness(Facility)</h4>
+  <div class="markdown level1 summary"><p>Visszaadja, hogy az adott építmény körül mennyi növény található és az azok által definiált pluszpontokat összeadja és
+visszaadja, hogy mennyivel növelje a játékos kedvét</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetHappiness(Facility currentBuildingOfVisitor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Model.Facility.html">Facility</a></td>
+        <td><span class="parametername">currentBuildingOfVisitor</span></td>
+        <td><p>Játékos aktuális épülete</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Boldogság pontok</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_Map_GetPath_" data-uid="Model.Map.GetPath*"></a>
+  <h4 id="Model_Map_GetPath_Model_Facility_Model_Facility_" data-uid="Model.Map.GetPath(Model.Facility,Model.Facility)">GetPath(Facility, Facility)</h4>
+  <div class="markdown level1 summary"><p>Megadja két pont között az utat, ha létezik.
+Ha nem akkor hibát dob.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Facility&gt; GetPath(Facility from, Facility to)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Model.Facility.html">Facility</a></td>
+        <td><span class="parametername">from</span></td>
+        <td><p>Honnan</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Model.Facility.html">Facility</a></td>
+        <td><span class="parametername">to</span></td>
+        <td><p>Hova</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Model.Facility.html">Facility</a>&gt;</td>
+        <td><p>Útvonal</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>Hibás kérés, a két pont között nem létezik útvonal</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_Map_GetRandomRoad_" data-uid="Model.Map.GetRandomRoad*"></a>
+  <h4 id="Model_Map_GetRandomRoad_Model_Facility_" data-uid="Model.Map.GetRandomRoad(Model.Facility)">GetRandomRoad(Facility)</h4>
+  <div class="markdown level1 summary"><p>Karbantartó véletlenszerű célválasztásához a megadott pozíción kívűl választ egy másik utat véletlenszerűen.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Facility GetRandomRoad(Facility currentFacility)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Model.Facility.html">Facility</a></td>
+        <td><span class="parametername">currentFacility</span></td>
+        <td><p>Karbantartó aktuális helye</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Model.Facility.html">Facility</a></td>
+        <td><p>A következő cél</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="Model_Map_FloydWarshallDone" data-uid="Model.Map.FloydWarshallDone">FloydWarshallDone</h4>
+  <div class="markdown level1 summary"><p>Floyd-Warshall lefutott jelzése</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler FloydWarshallDone</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

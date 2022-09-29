@@ -1,0 +1,794 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Building
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Building
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Model.Building">
+  
+  
+  <h1 id="Model_Building" data-uid="Model.Building" class="text-break">Class Building
+  </h1>
+  <div class="markdown level0 summary"><p>Ez az absztrakt osztály implementálja az épületekre jellemző tulajdonságokat és
+metódusokat (sor, kihasználtság, életerő)</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Model.Entity.html">Entity</a></div>
+    <div class="level2"><a class="xref" href="Model.Purchasable.html">Purchasable</a></div>
+    <div class="level3"><a class="xref" href="Model.Facility.html">Facility</a></div>
+    <div class="level4"><span class="xref">Building</span></div>
+      <div class="level5"><a class="xref" href="Model.FoodBuilding.html">FoodBuilding</a></div>
+      <div class="level5"><a class="xref" href="Model.Game.html">Game</a></div>
+      <div class="level5"><a class="xref" href="Model.Gate.html">Gate</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Model.Facility.html#Model_Facility_StatusState">Facility.StatusState</a>
+    </div>
+    <div>
+      <a class="xref" href="Model.Facility.html#Model_Facility_Status">Facility.Status</a>
+    </div>
+    <div>
+      <a class="xref" href="Model.Facility.html#Model_Facility_Equals_System_Object_">Facility.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="Model.Facility.html#Model_Facility_GetHashCode">Facility.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="Model.Facility.html#Model_Facility_GetBuildingsWithRoadToThis_Model_Map_">Facility.GetBuildingsWithRoadToThis(Map)</a>
+    </div>
+    <div>
+      <a class="xref" href="Model.Facility.html#Model_Facility_CanBePlacedOnLocation_Model_GridPoint_Model_Park_">Facility.CanBePlacedOnLocation(GridPoint, Park)</a>
+    </div>
+    <div>
+      <a class="xref" href="Model.Purchasable.html#Model_Purchasable_Price">Purchasable.Price</a>
+    </div>
+    <div>
+      <a class="xref" href="Model.Purchasable.html#Model_Purchasable_Name">Purchasable.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="Model.Entity.html#Model_Entity_MINUS_HAPPINESS_POINTS_WHEN_HUNGRY">Entity.MINUS_HAPPINESS_POINTS_WHEN_HUNGRY</a>
+    </div>
+    <div>
+      <a class="xref" href="Model.Entity.html#Model_Entity_HUNGERPOINT">Entity.HUNGERPOINT</a>
+    </div>
+    <div>
+      <a class="xref" href="Model.Entity.html#Model_Entity_HAPPINESSPOINT">Entity.HAPPINESSPOINT</a>
+    </div>
+    <div>
+      <a class="xref" href="Model.Entity.html#Model_Entity_MINUS_HAPPINESS_POINT_WHEN_WAITING">Entity.MINUS_HAPPINESS_POINT_WHEN_WAITING</a>
+    </div>
+    <div>
+      <a class="xref" href="Model.Entity.html#Model_Entity_HAPPINESS_WHEN_IN_FOODBUILDING">Entity.HAPPINESS_WHEN_IN_FOODBUILDING</a>
+    </div>
+    <div>
+      <a class="xref" href="Model.Entity.html#Model_Entity_VISITOR_STARTING_MONEY_AMOUNT">Entity.VISITOR_STARTING_MONEY_AMOUNT</a>
+    </div>
+    <div>
+      <a class="xref" href="Model.Entity.html#Model_Entity_LocationState">Entity.LocationState</a>
+    </div>
+    <div>
+      <a class="xref" href="Model.Entity.html#Model_Entity_Location">Entity.Location</a>
+    </div>
+    <div>
+      <a class="xref" href="Model.Entity.html#Model_Entity_Height">Entity.Height</a>
+    </div>
+    <div>
+      <a class="xref" href="Model.Entity.html#Model_Entity_Width">Entity.Width</a>
+    </div>
+    <div>
+      <a class="xref" href="Model.Entity.html#Model_Entity_GetGridPoints_Model_GridPoint_">Entity.GetGridPoints(GridPoint)</a>
+    </div>
+    <div>
+      <a class="xref" href="Model.Entity.html#Model_Entity_GetGridPoints">Entity.GetGridPoints()</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Model.html">Model</a></h6>
+  <h6><strong>Assembly</strong>: Model.dll</h6>
+  <h5 id="Model_Building_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class Building : Facility</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Model_Building__ctor_" data-uid="Model.Building.#ctor*"></a>
+  <h4 id="Model_Building__ctor_System_String_Model_GridPoint_System_Int32_System_Int32_System_Int32_System_Drawing_Point_System_Int32_System_Int32_System_Int32_" data-uid="Model.Building.#ctor(System.String,Model.GridPoint,System.Int32,System.Int32,System.Int32,System.Drawing.Point,System.Int32,System.Int32,System.Int32)">Building(String, GridPoint, Int32, Int32, Int32, Point, Int32, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Ezt a konstruktort a leszármazottaknak kell meghívni.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Building(string name, GridPoint location, int width, int height, int activityDuration, Point gateOffset = default(Point), int generalCost = 10000, int visitorCost = 5, int health = 100)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>az épület neve</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Model.GridPoint.html">GridPoint</a></td>
+        <td><span class="parametername">location</span></td>
+        <td><p>az épület pozíciója a pályán</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">width</span></td>
+        <td><p>az épület hossza</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">height</span></td>
+        <td><p>az épület magassága</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">activityDuration</span></td>
+        <td><p>az épületben található tevékenység hossza (tickekben)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Drawing.Point</span></td>
+        <td><span class="parametername">gateOffset</span></td>
+        <td><p>a bejárat elhelyezkedése az épületen belül ,az épület jobb felső sarka a (0,0) pont</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">generalCost</span></td>
+        <td><p>az épület általános költsége, amit tickecként levon a park pénzéből</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">visitorCost</span></td>
+        <td><p>a költség, amit látogatónként kell kifizetni a parknak</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">health</span></td>
+        <td><p>az épület életereje</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Model_Building_MaxHealth" data-uid="Model.Building.MaxHealth">MaxHealth</h4>
+  <div class="markdown level1 summary"><p>Az épület maximális életereje</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MaxHealth = 100</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Model_Building_ActivityDuration_" data-uid="Model.Building.ActivityDuration*"></a>
+  <h4 id="Model_Building_ActivityDuration" data-uid="Model.Building.ActivityDuration">ActivityDuration</h4>
+  <div class="markdown level1 summary"><p>A épület feladatának hossza, ennyi időt tölt el a látogató az épületben</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ActivityDuration { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_Building_BuildAndRepairTimeState_" data-uid="Model.Building.BuildAndRepairTimeState*"></a>
+  <h4 id="Model_Building_BuildAndRepairTimeState" data-uid="Model.Building.BuildAndRepairTimeState">BuildAndRepairTimeState</h4>
+  <div class="markdown level1 summary"><p>Ha az épület építés vagy javítás alatt alatt van, akkor itt számoljuk az eltelt időt.
+Ez egy állapot tulajdonság</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public State&lt;int&gt; BuildAndRepairTimeState { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Model.Util.State-1.html">State</a>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_Building_BuildTime_" data-uid="Model.Building.BuildTime*"></a>
+  <h4 id="Model_Building_BuildTime" data-uid="Model.Building.BuildTime">BuildTime</h4>
+  <div class="markdown level1 summary"><p>A tickek száma, ami az épület felépítéséhez vagy megjavításához kell</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int BuildTime { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_Building_Capacity_" data-uid="Model.Building.Capacity*"></a>
+  <h4 id="Model_Building_Capacity" data-uid="Model.Building.Capacity">Capacity</h4>
+  <div class="markdown level1 summary"><p>A maximális mennyiségű látogató, aki egyszerre használni tudja az épületet</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Capacity { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_Building_HealthState_" data-uid="Model.Building.HealthState*"></a>
+  <h4 id="Model_Building_HealthState" data-uid="Model.Building.HealthState">HealthState</h4>
+  <div class="markdown level1 summary"><p>Az épület életereje. Ez egy állapot tulajdonság.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public State&lt;int&gt; HealthState { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Model.Util.State-1.html">State</a>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_Building_LocationOnMap_" data-uid="Model.Building.LocationOnMap*"></a>
+  <h4 id="Model_Building_LocationOnMap" data-uid="Model.Building.LocationOnMap">LocationOnMap</h4>
+  <div class="markdown level1 summary"><p>Az útkeresés szempontjából releváns pozíció</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override GridPoint LocationOnMap { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Model.GridPoint.html">GridPoint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Model.Facility.html#Model_Facility_LocationOnMap">Facility.LocationOnMap</a></div>
+  
+  
+  <a id="Model_Building_MinimalUtilizationPercent_" data-uid="Model.Building.MinimalUtilizationPercent*"></a>
+  <h4 id="Model_Building_MinimalUtilizationPercent" data-uid="Model.Building.MinimalUtilizationPercent">MinimalUtilizationPercent</h4>
+  <div class="markdown level1 summary"><p>a minimális kihasználtság százaléka, ami az épület elindításához szükséges</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int MinimalUtilizationPercent { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_Building_MinimalUtilizationPercentState_" data-uid="Model.Building.MinimalUtilizationPercentState*"></a>
+  <h4 id="Model_Building_MinimalUtilizationPercentState" data-uid="Model.Building.MinimalUtilizationPercentState">MinimalUtilizationPercentState</h4>
+  <div class="markdown level1 summary"><p>a minimális kihasználtság állapota százalékban</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public State&lt;int&gt; MinimalUtilizationPercentState { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Model.Util.State-1.html">State</a>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_Building_Queue_" data-uid="Model.Building.Queue*"></a>
+  <h4 id="Model_Building_Queue" data-uid="Model.Building.Queue">Queue</h4>
+  <div class="markdown level1 summary"><p>Az épület előtt álló sor</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;Visitor&gt; Queue { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ObservableCollection</span>&lt;<a class="xref" href="Model.Visitor.html">Visitor</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_Building_TicketPrice_" data-uid="Model.Building.TicketPrice*"></a>
+  <h4 id="Model_Building_TicketPrice" data-uid="Model.Building.TicketPrice">TicketPrice</h4>
+  <div class="markdown level1 summary"><p>A jegyár, vagy az étel ára (éttermekben)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TicketPrice { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_Building_TicketPriceState_" data-uid="Model.Building.TicketPriceState*"></a>
+  <h4 id="Model_Building_TicketPriceState" data-uid="Model.Building.TicketPriceState">TicketPriceState</h4>
+  <div class="markdown level1 summary"><p>a TicketPrice állapota</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public State&lt;int&gt; TicketPriceState { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Model.Util.State-1.html">State</a>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_Building_UtilizationState_" data-uid="Model.Building.UtilizationState*"></a>
+  <h4 id="Model_Building_UtilizationState" data-uid="Model.Building.UtilizationState">UtilizationState</h4>
+  <div class="markdown level1 summary"><p>A látogatók száma az épületben. Ez egy állapot tulajdonság.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public State&lt;int&gt; UtilizationState { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Model.Util.State-1.html">State</a>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Model_Building_Clear_" data-uid="Model.Building.Clear*"></a>
+  <h4 id="Model_Building_Clear" data-uid="Model.Building.Clear">Clear()</h4>
+  <div class="markdown level1 summary"><p>Az összes épületet kiküldi az épületből, illetve az előtte álló sorból.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  </div>
+  
+  
+  <a id="Model_Building_FinishRepair_" data-uid="Model.Building.FinishRepair*"></a>
+  <h4 id="Model_Building_FinishRepair" data-uid="Model.Building.FinishRepair">FinishRepair()</h4>
+  <div class="markdown level1 summary"><p>Levonja a javítás költségét és átállítja az épület státuszát Waiting-re</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FinishRepair()</code></pre>
+  </div>
+  
+  
+  <a id="Model_Building_StartRepair_" data-uid="Model.Building.StartRepair*"></a>
+  <h4 id="Model_Building_StartRepair" data-uid="Model.Building.StartRepair">StartRepair()</h4>
+  <div class="markdown level1 summary"><p>Átállítja az épület státuszát Repairing-re, ha eddig az várt a karbantartóra</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StartRepair()</code></pre>
+  </div>
+  
+  
+  <a id="Model_Building_StopUsing_" data-uid="Model.Building.StopUsing*"></a>
+  <h4 id="Model_Building_StopUsing_Model_Visitor_" data-uid="Model.Building.StopUsing(Model.Visitor)">StopUsing(Visitor)</h4>
+  <div class="markdown level1 summary"><p>Kilépteti a paraméterként átadott létogatót az épületből. Ha az épületnek elfogyott az életereje, akkor elromlik
+Ha az látogató a sorban van, onnan is eltűnik.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StopUsing(Visitor visitor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Model.Visitor.html">Visitor</a></td>
+        <td><span class="parametername">visitor</span></td>
+        <td><p>a látogató akit ki akarunk léptetni</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_Building_TimeAdvanced_" data-uid="Model.Building.TimeAdvanced*"></a>
+  <h4 id="Model_Building_TimeAdvanced" data-uid="Model.Building.TimeAdvanced">TimeAdvanced()</h4>
+  <div class="markdown level1 summary"><p>Ez a metódus minden ticknél meghívódik. Ez felelős az automatikus folyamatok működéséért.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void TimeAdvanced()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Model.Entity.html#Model_Entity_TimeAdvanced">Entity.TimeAdvanced()</a></div>
+  
+  
+  <a id="Model_Building_TryUsing_" data-uid="Model.Building.TryUsing*"></a>
+  <h4 id="Model_Building_TryUsing_Model_Visitor_" data-uid="Model.Building.TryUsing(Model.Visitor)">TryUsing(Visitor)</h4>
+  <div class="markdown level1 summary"><p>Ha az épület státusza Waiting vagy Working, akkor beteszi a paraméterben
+átadott látogatót a sorba, egyébként visszautasítja</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void TryUsing(Visitor visitor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Model.Visitor.html">Visitor</a></td>
+        <td><span class="parametername">visitor</span></td>
+        <td><p>A látogató, aki be akar jönni az épületbe</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="Model_Building_MoneyNeedsToBeWithdrawnFromBudget" data-uid="Model.Building.MoneyNeedsToBeWithdrawnFromBudget">MoneyNeedsToBeWithdrawnFromBudget</h4>
+  <div class="markdown level1 summary"><p>Akkor hívódik meg, ha pénzt kell levonni a parktól</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;int&gt; MoneyNeedsToBeWithdrawnFromBudget</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Model_Building_VisitorEntered" data-uid="Model.Building.VisitorEntered">VisitorEntered</h4>
+  <div class="markdown level1 summary"><p>Akkor hívódik meg, ha egy visitor belép az épületbe</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;Building&gt; VisitorEntered</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Model.Building.html">Building</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
