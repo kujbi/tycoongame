@@ -1,3 +1,5 @@
-# BSW
+# Szoftvertechnológia Projektmunka 
 
-[Dokumentáció](https://szofttech.inf.elte.hu/szt-ab-2022/group-04/bsw/-/wikis/home)
+W/:
+[Molnár Dániel] https://github.com/molnardani2001
+[Gasparin Zsombor] https://github.com/gasparinzsombor
